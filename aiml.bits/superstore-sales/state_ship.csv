@@ -1,0 +1,177 @@
+State,ShipMode,Sales,ShipTime
+Alabama,First Class,3973.49,2.7777777777777777
+Alabama,Same Day,29.0,0.0
+Alabama,Second Class,7870.35,3.1666666666666665
+Alabama,Standard Class,7637.8,5.121212121212121
+Arizona,First Class,5809.603,1.8333333333333333
+Arizona,Same Day,2611.1459999999997,0.0625
+Arizona,Second Class,3642.8940000000002,3.5925925925925926
+Arizona,Standard Class,23209.014,5.304347826086956
+Arkansas,First Class,1465.76,1.2
+Arkansas,Same Day,117.62,0.0
+Arkansas,Second Class,1506.3,3.8
+Arkansas,Standard Class,8588.45,5.2105263157894735
+California,First Class,77746.7165,2.0859872611464967
+California,Same Day,26955.0,0.09401709401709402
+California,Second Class,91306.65149999999,3.1632124352331608
+California,Standard Class,250298.0955,4.993799822852082
+Colorado,First Class,4920.456,2.1818181818181817
+Colorado,Same Day,1296.62,0.3333333333333333
+Colorado,Second Class,4263.416,2.6666666666666665
+Colorado,Standard Class,21361.106,4.916666666666667
+Connecticut,First Class,1943.02,2.1578947368421053
+Connecticut,Same Day,1893.497,0.0
+Connecticut,Second Class,3184.7999999999997,3.3636363636363638
+Connecticut,Standard Class,6363.04,5.166666666666667
+Delaware,First Class,3067.136,2.388888888888889
+Delaware,Same Day,162.51999999999998,0.0
+Delaware,Second Class,1158.55,2.6923076923076925
+Delaware,Standard Class,22934.793,5.283333333333333
+District of Columbia,Second Class,111.68,5.0
+District of Columbia,Standard Class,2753.34,6.0
+Florida,First Class,8017.679,2.0555555555555554
+Florida,Same Day,3918.6220000000003,0.0
+Florida,Second Class,15020.7155,3.257575757575758
+Florida,Standard Class,61479.5155,5.093333333333334
+Georgia,First Class,4176.45,2.1
+Georgia,Same Day,2545.17,0.0
+Georgia,Second Class,11254.439999999999,2.870967741935484
+Georgia,Standard Class,30243.05,4.972972972972973
+Idaho,First Class,904.496,2.25
+Idaho,Second Class,530.416,2.0
+Idaho,Standard Class,2947.574,4.615384615384615
+Illinois,First Class,10894.229000000001,2.453125
+Illinois,Same Day,3350.164,0.0
+Illinois,Second Class,16936.074,3.8155339805825244
+Illinois,Standard Class,48056.05,4.969178082191781
+Indiana,First Class,3107.09,2.375
+Indiana,Same Day,1451.92,0.0
+Indiana,Second Class,5205.77,3.566666666666667
+Indiana,Standard Class,38953.62,5.104651162790698
+Iowa,First Class,278.4,1.0
+Iowa,Same Day,6.48,0.0
+Iowa,Second Class,493.96999999999997,3.8333333333333335
+Iowa,Standard Class,3664.7099999999996,5.5
+Kansas,First Class,432.81,3.0
+Kansas,Same Day,33.29,0.0
+Kansas,Second Class,149.2,2.0
+Kansas,Standard Class,2299.0099999999998,4.866666666666666
+Kentucky,First Class,2144.41,2.230769230769231
+Kentucky,Same Day,169.45,0.0
+Kentucky,Second Class,14474.779999999999,3.1538461538461537
+Kentucky,Standard Class,19669.75,5.029850746268656
+Louisiana,First Class,3727.97,1.3
+Louisiana,Same Day,89.32000000000001,0.0
+Louisiana,Second Class,2707.88,3.0714285714285716
+Louisiana,Standard Class,2605.88,4.6
+Maine,Standard Class,1270.53,5.0
+Maryland,First Class,2413.681,2.3333333333333335
+Maryland,Same Day,4180.49,0.0
+Maryland,Second Class,4160.95,3.5
+Maryland,Standard Class,12950.402,5.015151515151516
+Massachusetts,First Class,4996.76,2.5
+Massachusetts,Same Day,955.4200000000001,0.0
+Massachusetts,Second Class,7972.942,3.1714285714285713
+Massachusetts,Standard Class,14709.312,4.776315789473684
+Michigan,First Class,10934.046,2.3333333333333335
+Michigan,Same Day,4154.044,0.0
+Michigan,Second Class,17135.703,2.7708333333333335
+Michigan,Standard Class,43912.281,5.126506024096385
+Minnesota,First Class,2839.2200000000003,2.5
+Minnesota,Same Day,375.71,0.0
+Minnesota,Second Class,4091.19,4.384615384615385
+Minnesota,Standard Class,22557.030000000002,5.112903225806452
+Mississippi,First Class,514.03,3.0
+Mississippi,Same Day,839.25,0.0
+Mississippi,Second Class,1716.78,3.7142857142857144
+Mississippi,Standard Class,7701.28,4.82051282051282
+Missouri,First Class,521.66,1.75
+Missouri,Same Day,248.82,0.0
+Missouri,Second Class,9520.87,4.285714285714286
+Missouri,Standard Class,11913.8,4.821428571428571
+Montana,First Class,39.9,3.0
+Montana,Same Day,8.288,0.0
+Montana,Standard Class,5541.164,5.076923076923077
+Nebraska,First Class,890.9800000000001,1.7142857142857142
+Nebraska,Same Day,801.0999999999999,0.0
+Nebraska,Second Class,193.57999999999998,2.6666666666666665
+Nebraska,Standard Class,5579.27,4.7727272727272725
+Nevada,First Class,1961.198,1.8
+Nevada,Same Day,475.944,0.0
+Nevada,Second Class,6805.795999999999,3.5833333333333335
+Nevada,Standard Class,7486.164,5.666666666666667
+New Hampshire,First Class,136.74,1.0
+New Hampshire,Second Class,4284.374,2.909090909090909
+New Hampshire,Standard Class,2871.41,4.714285714285714
+New Jersey,First Class,860.4300000000001,2.4444444444444446
+New Jersey,Same Day,70.95,0.0
+New Jersey,Second Class,4435.19,2.8333333333333335
+New Jersey,Standard Class,29244.402000000002,5.159090909090909
+New Mexico,First Class,159.99,1.0
+New Mexico,Same Day,255.85,0.0
+New Mexico,Second Class,899.352,4.333333333333333
+New Mexico,Standard Class,3468.33,4.884615384615385
+New York,First Class,59352.304000000004,2.127906976744186
+New York,Same Day,24553.338,0.0
+New York,Second Class,42498.323000000004,3.5686274509803924
+New York,Standard Class,179957.182,5.084977238239757
+North Carolina,First Class,6047.672,2.0526315789473686
+North Carolina,Same Day,12257.097,0.07142857142857142
+North Carolina,Second Class,10244.392,3.2439024390243905
+North Carolina,Standard Class,26616.803,5.012987012987013
+North Dakota,Second Class,891.53,2.0
+North Dakota,Standard Class,28.38,5.0
+Ohio,First Class,14440.473,2.3529411764705883
+Ohio,Same Day,8843.002,0.0
+Ohio,Second Class,13790.607,2.989247311827957
+Ohio,Standard Class,37774.896,4.896860986547085
+Oklahoma,First Class,1781.67,2.0
+Oklahoma,Same Day,3638.56,0.0
+Oklahoma,Second Class,1289.01,4.142857142857143
+Oklahoma,Standard Class,12974.15,5.468085106382978
+Oregon,First Class,3057.321,2.3333333333333335
+Oregon,Second Class,2580.794,2.466666666666667
+Oregon,Standard Class,11646.347,5.253012048192771
+Pennsylvania,First Class,19068.829,2.2018348623853212
+Pennsylvania,Same Day,1983.903,0.0
+Pennsylvania,Second Class,26284.546,3.208791208791209
+Pennsylvania,Standard Class,68939.372,4.705722070844686
+Rhode Island,First Class,4157.32,1.9444444444444444
+Rhode Island,Second Class,6511.096,2.7142857142857144
+Rhode Island,Standard Class,11856.61,5.5
+South Carolina,First Class,187.43,2.6666666666666665
+South Carolina,Same Day,452.25,0.0
+South Carolina,Second Class,2544.52,3.4444444444444446
+South Carolina,Standard Class,5297.51,5.0625
+South Dakota,First Class,152.64000000000001,3.0
+South Dakota,Second Class,25.5,3.0
+South Dakota,Standard Class,1137.42,4.888888888888889
+Tennessee,First Class,4277.305,2.590909090909091
+Tennessee,Same Day,80.564,0.0
+Tennessee,Second Class,5003.329,3.0
+Tennessee,Standard Class,21300.675,5.0
+Texas,First Class,21763.2228,2.2714285714285714
+Texas,Same Day,5867.224,0.08333333333333333
+Texas,Second Class,36990.6964,3.0797872340425534
+Texas,Standard Class,103951.389,4.902847571189279
+Utah,First Class,1700.0700000000002,1.75
+Utah,Same Day,97.91799999999999,0.0
+Utah,Second Class,4464.218,4.0
+Utah,Standard Class,4957.85,5.285714285714286
+Vermont,Second Class,715.2,2.0
+Vermont,Standard Class,8214.17,4.1
+Virginia,First Class,14513.72,2.16
+Virginia,Same Day,518.83,0.0
+Virginia,Second Class,21091.05,3.186046511627907
+Virginia,Standard Class,34513.12,4.888888888888889
+Washington,First Class,31732.6,2.2205882352941178
+Washington,Same Day,9078.714,0.1282051282051282
+Washington,Second Class,29272.134000000002,3.1153846153846154
+Washington,Standard Class,65123.402,5.194539249146757
+West Virginia,Same Day,673.344,0.0
+West Virginia,Standard Class,536.48,4.0
+Wisconsin,First Class,4461.33,2.1666666666666665
+Wisconsin,Same Day,178.60999999999999,0.0
+Wisconsin,Second Class,4682.62,3.0
+Wisconsin,Standard Class,21850.87,4.842105263157895
+Wyoming,Standard Class,1603.136,5.0
