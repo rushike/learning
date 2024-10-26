@@ -1,0 +1,45 @@
+name: Example - Deploy App Engine using the deploy-appengine GitHub Action
+on:
+  workflow_dispatch:
+
+jobs:
+  example:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: 'read'
+      id-token: 'write'
+
+    steps:
+      # actions/checkout MUST come before auth
+      - name: 'Checkout'
+        uses: 'actions/checkout@v3'
+        with:
+          repository: GoogleCloudPlatform/python-docs-samples # Taken from https://cloud.google.com/appengine/docs/standard/python3/building-app
+
+      - name: 'Authenticate to GCP as Infrastructure SA for deployment'
+        uses: 'google-github-actions/auth@v1'
+        with:
+          export_environment_variables: true
+          project_id : ${{ vars.PROJECT_ID }}
+          workload_identity_provider: ${{ vars.WORKLOAD_IDENTITY_PROVIDER }}
+          service_account: ${{ vars.INFRA_SA_EMAIL }} # Use your Infrastructure SA to manage resources
+
+      # Only needed for first run
+      - name: 'Set up Cloud SDK'
+        uses: 'google-github-actions/setup-gcloud@v1'
+
+      # Only needed for first run
+      - name: 'Create App Environment'
+        run: 'gcloud app create --region=europe-west3'
+
+      - name: 'Deploy App Engine'
+        id: 'deploy'
+        uses: 'google-github-actions/deploy-appengine@v1'
+        with:
+          flags: '--service-account=${{ vars.WORKLOAD_SA_EMAIL }}' # Use your Workload SA to attach to compute resources
+          working_directory: 'appengine/standard_python3/building-an-app/building-an-app-1'
+
+      # Example of using the output
+      - name: 'Poke App Engine'
+        run: 'curl "${{ steps.deploy.outputs.url }}"'

@@ -1,0 +1,6 @@
+**/node_modules
+**/env/**
+**/cdn/**
+**/echo-bot/**
+__pychache__
+**.pyc

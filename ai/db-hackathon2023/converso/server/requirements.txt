@@ -1,0 +1,6 @@
+flask
+openai
+flask-cors
+bs4
+transformers
+torch
