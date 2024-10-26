@@ -1,0 +1,25 @@
+**.ipynb_checkpoints**
+**env**
+**__pycache__**
+**node_modules**
+**.vscode**
+*.keras
+*.pickle
+*.v2
+*.pyc
+**.DS_Store**
+# Ignoring binary file and already backed files from aiml.bits
+aiml.bits/**/*.ipynb
+aiml.bits/**/*.zip
+aiml.bits/**/*.html
+aiml.bits/**/*.js
+aiml.bits/**/*.css
+
+# DB Hackathon 2023 ignoring 
+**cerebras-lora-alpaca**
+
+# ignoring gpt2_eli5_clm-model from transformers
+gpt2_eli5_clm-model
+
+# ignoring flickr8k dataset
+**flickr8k**
