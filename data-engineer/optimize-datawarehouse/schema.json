@@ -1,0 +1,261 @@
+[
+  {
+    "name": "country_name",
+    "type": "STRING"
+  },
+  {
+    "name": "alpha_3_code",
+    "type": "STRING"
+  },
+  {
+    "name": "region_name",
+    "type": "STRING"
+  },
+  {
+    "name": "region_code",
+    "type": "STRING"
+  },
+  {
+    "name": "date",
+    "type": "DATE"
+  },
+  {
+    "name": "school_closing",
+    "type": "STRING"
+  },
+  {
+    "name": "school_closing_flag",
+    "type": "STRING"
+  },
+  {
+    "name": "school_closing_notes",
+    "type": "STRING"
+  },
+  {
+    "name": "workplace_closing",
+    "type": "STRING"
+  },
+  {
+    "name": "workplace_closing_flag",
+    "type": "STRING"
+  },
+  {
+    "name": "workplace_closing_notes",
+    "type": "STRING"
+  },
+  {
+    "name": "cancel_public_events",
+    "type": "STRING"
+  },
+  {
+    "name": "cancel_public_events_flag",
+    "type": "STRING"
+  },
+  {
+    "name": "cancel_public_events_notes",
+    "type": "STRING"
+  },
+  {
+    "name": "restrictions_on_gatherings",
+    "type": "STRING"
+  },
+  {
+    "name": "restrictions_on_gatherings_flag",
+    "type": "STRING"
+  },
+  {
+    "name": "restrictions_on_gatherings_notes",
+    "type": "STRING"
+  },
+  {
+    "name": "close_public_transit",
+    "type": "STRING"
+  },
+  {
+    "name": "close_public_transit_flag",
+    "type": "STRING"
+  },
+  {
+    "name": "close_public_transit_notes",
+    "type": "STRING"
+  },
+  {
+    "name": "stay_at_home_requirements",
+    "type": "STRING"
+  },
+  {
+    "name": "stay_at_home_requirements_flag",
+    "type": "STRING"
+  },
+  {
+    "name": "stay_at_home_requirements_notes",
+    "type": "STRING"
+  },
+  {
+    "name": "restrictions_on_internal_movement",
+    "type": "STRING"
+  },
+  {
+    "name": "restrictions_on_internal_movement_flag",
+    "type": "STRING"
+  },
+  {
+    "name": "restrictions_on_internal_movement_notes",
+    "type": "STRING"
+  },
+  {
+    "name": "international_travel_controls",
+    "type": "STRING"
+  },
+  {
+    "name": "international_travel_controls_notes",
+    "type": "STRING"
+  },
+  {
+    "name": "income_support",
+    "type": "STRING"
+  },
+  {
+    "name": "income_support_flag",
+    "type": "STRING"
+  },
+  {
+    "name": "income_support_notes",
+    "type": "STRING"
+  },
+  {
+    "name": "debt_contract_relief",
+    "type": "STRING"
+  },
+  {
+    "name": "debt_contract_relief_notes",
+    "type": "STRING"
+  },
+  {
+    "name": "fiscal_measures",
+    "type": "FLOAT"
+  },
+  {
+    "name": "fiscal_measures_notes",
+    "type": "STRING"
+  },
+  {
+    "name": "international_support",
+    "type": "FLOAT"
+  },
+  {
+    "name": "international_support_notes",
+    "type": "STRING"
+  },
+  {
+    "name": "public_information_campaigns",
+    "type": "STRING"
+  },
+  {
+    "name": "public_information_campaigns_flag",
+    "type": "STRING"
+  },
+  {
+    "name": "public_information_campaigns_notes",
+    "type": "STRING"
+  },
+  {
+    "name": "testing_policy",
+    "type": "STRING"
+  },
+  {
+    "name": "testing_policy_notes",
+    "type": "STRING"
+  },
+  {
+    "name": "contact_tracing",
+    "type": "STRING"
+  },
+  {
+    "name": "contact_tracing_notes",
+    "type": "STRING"
+  },
+  {
+    "name": "emergency_healthcare_investment",
+    "type": "FLOAT"
+  },
+  {
+    "name": "emergency_healthcare_investment_notes",
+    "type": "STRING"
+  },
+  {
+    "name": "vaccine_investment",
+    "type": "FLOAT"
+  },
+  {
+    "name": "vaccine_investment_notes",
+    "type": "STRING"
+  },
+  {
+    "name": "misc_wildcard",
+    "type": "STRING"
+  },
+  {
+    "name": "misc_wildcard_notes",
+    "type": "STRING"
+  },
+  {
+    "name": "confirmed_cases",
+    "type": "INTEGER"
+  },
+  {
+    "name": "deaths",
+    "type": "INTEGER"
+  },
+  {
+    "name": "stringency_index",
+    "type": "FLOAT"
+  },
+  {
+    "name": "population",
+    "type" : "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "country_area",
+    "type" : "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "mobility",
+    "type" : "RECORD",
+    "mode": "REPEATED",
+    "fields": [
+      {
+        "name": "avg_retail",
+        "type" : "FLOAT",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "avg_grocery",
+        "type" : "FLOAT",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "avg_parks",
+        "type" : "FLOAT",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "avg_transit",
+        "type" : "FLOAT",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "avg_workplace",
+        "type" : "FLOAT",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "avg_residential",
+        "type" : "FLOAT",
+        "mode": "NULLABLE"
+      }
+    ]
+  }
+]
